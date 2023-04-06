@@ -11,6 +11,8 @@ document.addEventListener("scroll", () => {
   }
 });
 
+// navbar mobile version
+
 //Handle scrolling when tapping on the navbar menu
 const navbarMenu = document.querySelector(".nav_menu");
 navbarMenu.addEventListener("click", (event) => {
