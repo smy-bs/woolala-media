@@ -237,7 +237,6 @@ section {
   color: var(--color-salmon);
 }
 
-
 /*Article___image et texte*/
 article{
   position:relative;
@@ -343,6 +342,10 @@ footer {
 /*For below 768px screen width*/
 
 @media screen and (max-width: 768px) {
+  #home{
+    height: 30rem;
+  }
+
   ul {
     position: relative;
     top: 0px;
@@ -383,10 +386,7 @@ footer {
   .nav_menu.open {
     display: block;
   }
-  section {
-    padding: 20px;
-  }
-  ul,
+    ul,
   li {
     color: var(--color-white);
   }
@@ -397,11 +397,7 @@ footer {
   .brand {
     display: none;
   }
-  .maintext {
-    position: absolute;
-    top: 290px;
-  }
-  .maintext h1 {
+    .maintext h1 {
     font-size: 2.8em;
     margin: auto;
   }
@@ -420,50 +416,39 @@ footer {
     padding: 15px 25px;
     font-size: 24px;
   }
+
+  /* main */
   section {
     flex-direction: column;
-    margin: 15px;
+    margin: auto;
+    width:100%;
   }
+  .studio:nth-child(even) .formation{
+    order:0;
+  }  
+
   #contents h2,
   #contents h3 {
     font: 16px;
   }
-  article.studio {
+
+  .studio {
     flex-direction: column;
-    margin: 15px;
-  }
+    align-items: center;
+     }
   .formation {
     width: 300px;
     height: 300px;
-    margin: auto;
-  }
-  .formation_texte {
-    text-align: left;
-    margin: auto;
-  }
-  .formation_texte,
-  p {
-    font-size: 12px;
+    align-items: center;
   }
 
-  article .studio_01 {
-    flex-direction: column;
-  }
-  .formation_texte {
-    text-align: left;
-    margin-left: -35px;
-  }
-  .formation_01 {
-    width: 350px;
-    height: 400px;
-    margin: auto;
-    padding: 20px 60px;
-  }
+  
   article.description {
     flex-direction: column;
-    margin: auto;
+    align-items: center;
+   
   }
-  .row {
+  footer {
     text-align: left;
   }
 }
