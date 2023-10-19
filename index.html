@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+li<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
@@ -17,23 +17,23 @@
 	<!-- Javascript -->
 	<script src="include/js/main.js" defer></script>
 	</head>
-	<header id="home">
+		<header id="home">
+		
 		<nav id="nav">
+			<button class="navbar__toggle-btn">
+				<i class="fa-solid fa-bars"></i>
+			</button>
 		<div class="rnb">
 			<img class="logo" src="include/images/header-brand-logo.png"></div>
 			<ul class="nav_menu">
-				<li class="nav_menu__item active" data-link="#home">HOME</li>
-				<li class="nav_menu__item" data-link="#contents">PODCAST</li>
-				<li class="nav_menu__item" data-link="#contents">SIGN UP</li>
-				<li class="nav_menu__item" data-link="#contents">Contact</li>
+				<li class="nav_menu__item active"> <a href="#home"/>HOME</li>
+				<li class="nav_menu__item"> <a href="#contents"/>PODCAST</li>
+				<li class="nav_menu__item"><a href="#sub_contents"/>SIGN UP</li>
+				<li class="nav_menu__item"><a href="#contact"/>Contact</li>
 			</ul>
+		</header>
+		</nav> 
 		
-	<!-- Toggle button -->
-	<button class="navbar__toggle-btn">
-	<i class="fas fa-bars"></i>
-	</button>
-	</nav> 
-	</header>	
 <main>
 	<div class="home_container">
 	<div class="mainimage">	
@@ -46,8 +46,8 @@
 			<span class="telecharge"><button>Téléchager</button>
 			</span>	</div>
 		</div>
-
 	</div>
+	
 
 <!---------------section 1------------------------------------------------------------>
 <section id="contents" >
@@ -98,7 +98,7 @@
 						tour and offered an open knowledge lectures, often frequently, if you find you like please.</h3>
 					</div>
 						
-		<article class="description">
+		<article class="description" id="sub_contents">
 			<div class="sub_contents">
 					<img src="include/images/sub-img-1-origin.jpg" class="sub__img" alt=""  />
 					<h5 class="sub__titre">Are now also work when you were a kid were you interested in such things?</h5>
@@ -135,7 +135,7 @@
 	<i class="fas fa-arrow-up"></i>
 </button>
 
-<footer>
+<footer id="contact">
 		<p class="footer">
 		<small>
 			&copy; 2019 <strong>woolala</strong> Ltd. 
@@ -145,7 +145,6 @@
 		</small>
 	</p>
 </footer>
-
 
 
 </body>

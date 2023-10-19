@@ -107,18 +107,15 @@ nav #nav {
   z-index: 10;
   border-radius: 0px 0px 0px 0px;
 }
-.header--dark {
-  background-color: #08a2ea;
-}
+
 nav#nav {
   position: fixed;
   width: 100%;
   background-color: transparent;
   transition: all 1s ease-in-out;
 }
-#nav.navbar--dark {
+nav#nav.navbar--dark {
   background-color: #08a2ea;
-  opacity: 85%;
 }
 .rnb {
   position: absolute;
@@ -157,6 +154,9 @@ li:hover {
 }
 
 /*mainimage==============================================*/
+.home_container{
+  transition: all 250ms ease-in;
+}
 .mainimage {
   position:relative ;
   z-index: 11;
@@ -351,23 +351,21 @@ footer {
     top: 0px;
     right: 10%;
   }
-  .navbar__toggle-btn {
-    display: block;
+  button.navbar__toggle-btn {
+    display:block;
+    color:var(--color-dark-white);
+    z-index: 12;
   }
-  .navbar--dark {
-    background-color: #08a2ea;
-    width: 100%;
-  }
+ 
+  
   nav#nav {
     position: fixed;
     width: 100%;
     background-color: transparent;
     transition: all 1s ease-in-out;
   }
-  #nav.navbar--dark {
-    background-color: #08a2ea;
-    opacity: 85%;
-  }
+ 
+
   .rnb {
     position: absolute;
     top: 35px;
