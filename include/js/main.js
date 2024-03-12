@@ -23,12 +23,6 @@ navbarMenu.addEventListener("click", ()=>{
 });
 
 
-// Handle click on "télécharge" button on home
-const homeTelechargeBtn = document.querySelector(".telecharge");
-homeTelechargeBtn.addEventListener("click", () => {
-  scrollIntoView("#contents");
-});
-
 
 //Show " arrow up" button when scrolling down
 const arrowUp = document.querySelector(".arrow-up");
