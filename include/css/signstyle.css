@@ -1,0 +1,32 @@
+@import "style.css";
+
+
+#loginForm{
+    position:relative;
+    top:7rem;
+}
+.maintextSign{
+    font-family: "Cunia" ;
+    color:var(--color-white);
+    font-size: 2.5rem;
+}
+.maintextSign:hover{
+  color:var(--color-light-white)
+}
+h2.signin{
+    font-family: "Slim Joe";
+    color:var(--color-white);
+    font-weight: 800;
+}
+.sign-text{
+    color:var(--color-white)
+}
+
+@media screen and (max-width: 768px) {
+    #home{
+        height: 100vh;
+      }
+    
+    
+
+}
