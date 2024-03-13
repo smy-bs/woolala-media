@@ -251,9 +251,9 @@ article{
   display: flex;
   gap:2rem;
   align-items: center;
-
  }
-.formation{
+
+ .formation{
   width:350px;
   height:350px;
   object-fit: cover;
